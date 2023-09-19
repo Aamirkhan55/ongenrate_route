@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class Screen2 extends StatelessWidget {
-  const Screen2({super.key});
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Screen2'),
+        title: const Text('Routes'),
       ),
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.pushNamed(context, 'screen3');
+            Navigator.pushNamed(context, 'screen1');
           }, 
           child: const Text('Navigator'),
           ),
